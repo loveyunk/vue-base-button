@@ -1,18 +1,28 @@
 # vue-base-button
 
-> A Vue.js project
+> Vue Base Button Component
 
-## Build Setup
+## Install
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+```bash
+npm install @loveyunk/vue-base-button --save
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage
+
+```js
+<template>
+  <vue-base-button>Button</vue-base-button>
+</template>
+
+<script>
+  import VueBaseButton from '@loveyunk/vue-base-button';
+  export default {
+    components: { VueBaseButton }
+  }
+</script>
+```
+
+## License
+
+MIT © [loveyunk](https://github.com/loveyunk)
